@@ -50,9 +50,14 @@ function App() {
         <div>
           <h3 className="text-3xl py-1">Services i offer</h3>
           <p className="text-md py-2 leading-8">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa
-            quisquam iusto accusantium eaque, laborum possimus.
+            Lorem ipsum dolor sit amet
+            <span className="text-cyan-500"> consectetur</span> adipisicing
+            elit. Eveniet illo libero cupiditate, quaerat dicta
+            <span className="text-cyan-500"> consequatur</span>.
           </p>
+        </div>
+        <div>
+          <div></div>
         </div>
       </section>
     </div>
