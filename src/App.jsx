@@ -61,10 +61,10 @@ function App() {
             <span className="text-cyan-500"> consequatur</span>.
           </p>
         </div>
-        <div>
-          <div>
+        <div className="text-center shadow-lg p-10">
+          <div className="flex flex-col justify-center items-center">
             <ChatBubbleBottomCenterIcon width={70} />
-            <h3>Consultant</h3>
+            <h3 className="text-lg font-medium pt-8 pb-2">Consultant</h3>
             <p>
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. At,
               perspiciatis.
