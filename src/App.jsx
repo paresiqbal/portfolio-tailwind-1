@@ -1,5 +1,6 @@
 // Icons
 import { MoonIcon } from "@heroicons/react/24/solid";
+import { AiFillInstagram, AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 
 function App() {
   return (
@@ -20,6 +21,23 @@ function App() {
           </li>
         </ul>
       </nav>
+
+      <main>
+        <div>
+          <h2>Pahreza Iqbal Prastowo</h2>
+          <h3>Full Stack Web Developer</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam
+            excepturi ab consequuntur fuga sequi, debitis ad obcaecati nihil
+            iste nobis.
+          </p>
+        </div>
+        <div>
+          <AiFillInstagram />
+          <AiFillGithub />
+          <AiFillLinkedin />
+        </div>
+      </main>
     </div>
   );
 }
