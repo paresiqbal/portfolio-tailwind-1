@@ -3,9 +3,9 @@ import { MoonIcon } from "@heroicons/react/24/solid";
 
 function App() {
   return (
-    <div className="min-h-screen bg-white px-10">
+    <div className="min-h-screen bg-white px-10 font-poppins">
       <nav className="py-10 mb-12 flex justify-between">
-        <h1 className="text-xl font-semibold">PahrezaIqbal</h1>
+        <h1 className="text-xl font-semibold font-roboto">PahrezaIqbal</h1>
         <ul className="flex items-center">
           <li>
             <MoonIcon width={24} height={24} className="cursor-pointer" />
