@@ -1,5 +1,10 @@
 // Icons
-import { MoonIcon, UserIcon } from "@heroicons/react/24/solid";
+import {
+  MoonIcon,
+  UserIcon,
+  ChatBubbleBottomCenterIcon,
+  CommandLineIcon,
+} from "@heroicons/react/24/solid";
 import { AiFillInstagram, AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 
 function App() {
@@ -57,7 +62,14 @@ function App() {
           </p>
         </div>
         <div>
-          <div></div>
+          <div>
+            <ChatBubbleBottomCenterIcon width={70} />
+            <h3>Consultant</h3>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. At,
+              perspiciatis.
+            </p>
+          </div>
         </div>
       </section>
     </div>
