@@ -4,6 +4,7 @@ import {
   UserIcon,
   ChatBubbleBottomCenterIcon,
   CommandLineIcon,
+  DevicePhoneMobileIcon,
 } from "@heroicons/react/24/solid";
 import { AiFillInstagram, AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 
@@ -73,7 +74,7 @@ function App() {
         </div>
         <div className="text-center shadow-lg p-10 my-10">
           <div className="flex flex-col justify-center items-center">
-            <ChatBubbleBottomCenterIcon width={100} />
+            <CommandLineIcon width={100} />
             <h3 className="text-lg font-medium pt-8 pb-2">Consultant</h3>
             <p>
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. At,
@@ -83,7 +84,7 @@ function App() {
         </div>
         <div className="text-center shadow-lg p-10 my-10">
           <div className="flex flex-col justify-center items-center">
-            <ChatBubbleBottomCenterIcon width={100} />
+            <DevicePhoneMobileIcon width={100} />
             <h3 className="text-lg font-medium pt-8 pb-2">Consultant</h3>
             <p>
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. At,
