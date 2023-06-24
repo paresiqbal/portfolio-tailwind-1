@@ -1,5 +1,5 @@
 // Icons
-import { MoonIcon } from "@heroicons/react/24/solid";
+import { MoonIcon, UserIcon } from "@heroicons/react/24/solid";
 import { AiFillInstagram, AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 
 function App() {
@@ -38,6 +38,11 @@ function App() {
           <AiFillInstagram />
           <AiFillGithub />
           <AiFillLinkedin />
+        </div>
+        <div className="relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20">
+          <h1>
+            <UserIcon />
+          </h1>
         </div>
       </main>
     </div>
