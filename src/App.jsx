@@ -4,7 +4,7 @@ import { AiFillInstagram, AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 
 function App() {
   return (
-    <div className="min-h-screen bg-white px-10 font-poppins text-neutral-900">
+    <div className="min-h-screen bg-white px-10 font-poppins text-neutral-800">
       <nav className="py-10 mb-12 flex justify-between">
         <h1 className="text-xl font-semibold font-roboto">PahrezaIqbal</h1>
         <ul className="flex items-center">
@@ -39,12 +39,22 @@ function App() {
           <AiFillGithub />
           <AiFillLinkedin />
         </div>
-        <div className="relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20">
+        <div className="relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20 overflow-hidden">
           <h1>
             <UserIcon />
           </h1>
         </div>
       </main>
+
+      <section>
+        <div>
+          <h3 className="text-3xl py-1">Services i offer</h3>
+          <p className="text-md py-2 leading-8">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa
+            quisquam iusto accusantium eaque, laborum possimus.
+          </p>
+        </div>
+      </section>
     </div>
   );
 }
