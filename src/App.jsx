@@ -93,6 +93,10 @@ function App() {
           </div>
         </div>
       </section>
+
+      <section>
+        <h3 className="text-3xl">Portfolio</h3>
+      </section>
     </div>
   );
 }
