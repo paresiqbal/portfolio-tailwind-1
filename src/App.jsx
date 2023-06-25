@@ -95,7 +95,11 @@ function App() {
       </section>
 
       <section>
-        <h3 className="text-3xl">Portfolio</h3>
+        <h3 className="text-3xl py-1">Portfolio</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae,
+          architecto.
+        </p>
       </section>
     </div>
   );
