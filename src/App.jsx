@@ -95,11 +95,17 @@ function App() {
       </section>
 
       <section>
-        <h3 className="text-3xl py-1">Portfolio</h3>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae,
-          architecto.
-        </p>
+        <div>
+          <h3 className="text-3xl py-1">Portfolio</h3>
+          <p className="text-md py-2 leading-8">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae,
+            architecto.
+          </p>
+          <p className="text-md py-2 leading-8">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam unde
+            velit quae quaerat odit architecto eum ut deserunt praesentium sed?
+          </p>
+        </div>
       </section>
     </div>
   );
