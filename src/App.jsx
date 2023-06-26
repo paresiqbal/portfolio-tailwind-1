@@ -5,6 +5,7 @@ import {
   ChatBubbleBottomCenterIcon,
   CommandLineIcon,
   DevicePhoneMobileIcon,
+  ComputerDesktorpIcon,
 } from "@heroicons/react/24/solid";
 import { AiFillInstagram, AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 
@@ -105,6 +106,9 @@ function App() {
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam unde
             velit quae quaerat odit architecto eum ut deserunt praesentium sed?
           </p>
+        </div>
+        <div>
+          <ComputerDesktorpIcon />
         </div>
       </section>
     </div>
